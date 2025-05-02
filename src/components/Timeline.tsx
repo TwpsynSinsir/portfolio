@@ -1,71 +1,93 @@
-import React from "react";
+import React from 'react'
 import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBriefcase, faSchool } from '@fortawesome/free-solid-svg-icons'
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
 import '../assets/styles/Timeline.scss'
 
 function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Experience</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2025 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faSchool} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">
+              Dev Academy Aotearoa
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Auckland, NZ</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              17 week course full-time web development bootcamp (680 Hours Class
+              time) <br /> Front-end and Back-end hands-on experience. Built
+              many web apps solo and as a team. <br /> Simulated real-world
+              software development teams, focusing on planning, collaboration,
+              delegation, and creating a complete application.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2022 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">
+              University of Auckland
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Auckland, NZ</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Responsible for student welfare and accommodation security. <br />{' '}
+              Trained in First-Aid, Mental Health Awareness, Suicide Prevention.{' '}
+              <br /> Detail-oriented work, checking coworkers’ work. <br />{' '}
+              Professional working environment.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2020 - 2021"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">
+              WSP Auckland Laboratory
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Auckland, NZ</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Physically and mentally strenuous work. Health & Safety focus.{' '}
+              <br /> Worked solo and grouped on dangerous projects.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2018 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">JET Programme</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Fukushima, Japan
+            </h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Responsible for 4 Primary Schools, Teaching roughly 1000 students.{' '}
+              <br /> Fostered good relations with supervisors and peers, working
+              to improve student learning and enjoyment. <br /> Fluent use of
+              Japanese and English in a work environment.{' '}
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>
-  );
+  )
 }
 
-export default Timeline;
+export default Timeline

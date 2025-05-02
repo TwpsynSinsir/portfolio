@@ -73,7 +73,8 @@ function Knowledge() {
             <p>
               To make the best use of my skills, I operate a wide range of tools
               and programmes. Testing, CI/CD pipelines, and deployment tools are
-              vital parts of the process.
+              vital parts of the process. I pride myself on seeing the job
+              through to the end.
             </p>
             <div className="items-grid">
               <img
@@ -121,6 +122,34 @@ function Knowledge() {
                 alt="postman logo"
               />
             </div>
+          </div>
+          <div className="item">
+            <h2>Tertiary Education</h2>
+            <p>
+              I am proud of my education and research background. Primarily
+              focused on the East-Asian Region, I have a strong grasp of
+              Japanese markets and work-culture.
+            </p>
+
+            <p>
+              Certificate in Applied Software (NZQA Level 6), Dev Academy
+              Aotearoa (2025)
+            </p>
+
+            <p>
+              Postgraduate Diploma in Asian Studies, University of Auckland
+              (2024)
+            </p>
+
+            <p>
+              Graduate Diploma in Politics & International Relations, University
+              of Auckland (2022)
+            </p>
+
+            <p>
+              Bachelor of Arts in Japanese Studies, Oxford Brookes University
+              (2018)
+            </p>
           </div>
         </div>
       </div>
