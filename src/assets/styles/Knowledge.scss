@@ -1,0 +1,27 @@
+.items-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.items-container .item-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid: gap 50px;
+}
+
+.items-container .item-grid .item{
+  align-items: center;
+  text-align: left;
+}
+
+.item-grid .items-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2em
+}
+
+.items-container .items-grid img{
+  height: 75px;
+}
