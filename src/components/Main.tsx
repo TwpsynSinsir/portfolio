@@ -8,22 +8,20 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="../assets/images/portrait.png" alt="Avatar" />
+          <img src="./assets/images/portrait.png" alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
             <a
               href="https://github.com/TwpsynSinsir"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <GitHubIcon />
             </a>
             <a
               href="https://www.linkedin.com/in/calum-wicks-468517218/"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <LinkedInIcon />
             </a>
           </div>
@@ -34,15 +32,13 @@ function Main() {
             <a
               href="https://github.com/TwpsynSinsir"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <GitHubIcon />
             </a>
             <a
               href="https://www.linkedin.com/in/calum-wicks-468517218/"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <LinkedInIcon />
             </a>
           </div>
